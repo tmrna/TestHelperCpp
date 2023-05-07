@@ -1,12 +1,12 @@
 #ifndef STRATEGYINTERFACE_HPP
 #define STRATEGYINTERFACE_HPP
 
-namespace test{
+namespace tstHelper{
 class StrategyInterface{
   public:
     virtual ~StrategyInterface() = default;
 
-    virtual bool testOperations() = 0;
+    virtual bool testOperations(int numParams) = 0;
 };
 }
 #endif
